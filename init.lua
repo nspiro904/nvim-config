@@ -8,3 +8,5 @@ require("lazy").setup({
     build = ":TSUpdate",
   },
 })
+
+vim.keymap.set("n", "<leader>q", ":Oil<CR>", { desc = "Open Oil" })
