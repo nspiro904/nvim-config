@@ -2,4 +2,4 @@
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 -- Add any additional keymaps here
 vim.api.nvim_set_keymap("n", "<leader>r", ":lcd %:p:h<CR>", { noremap = true })
-vim.api.nvim_set_keymap("n", "<leader>5", "f{<S-v>%", { noremap = true })
+vim.api.nvim_set_keymap("n", "<leader>5", "/{<CR><S-v>%", { noremap = true })
