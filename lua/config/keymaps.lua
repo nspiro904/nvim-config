@@ -1,5 +1,5 @@
 -- Keymaps are automatically loaded on the VeryLazy event
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 -- Add any additional keymaps here
-vim.api.nvim_set_keymap("n", "<leader>r", ":lcd %:p:h<CR>", { noremap = true })
+vim.api.nvim_set_keymap("n", "<leader>r", ":lcd %:p:h<CR>", { noremap = true, desc = "Set CWD" })
 vim.api.nvim_set_keymap("n", "<leader>5", "/{<CR><S-v>%", { noremap = true })
