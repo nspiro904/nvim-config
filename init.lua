@@ -13,3 +13,5 @@ require("lsp")
 vim.api.nvim_set_hl(0, "@lsp.type.unresolvedReference", {})
 
 vim.keymap.set("n", "<leader>q", ":Oil<CR>", { desc = "Open Oil" })
+vim.keymap.set("n", "<leader>i", "f{a<CR>", { desc = "jump inside brackets" })
+vim.keymap.set("n", "<leader>ga", "ea<><Esc>i", { desc = "jump inside brackets" })
